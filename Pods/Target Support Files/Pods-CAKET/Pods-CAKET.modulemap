@@ -1,0 +1,6 @@
+framework module Pods_CAKET {
+  umbrella header "Pods-CAKET-umbrella.h"
+
+  export *
+  module * { export * }
+}

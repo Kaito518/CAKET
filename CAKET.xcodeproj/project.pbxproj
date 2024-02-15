@@ -1,0 +1,1642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0812404714F3439B4D4094 /* Pods_caket_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C170C5BEC3659E04B494E286 /* Pods_caket_Watch_App.framework */; };
+		ED13713D2B60F35100A6AB27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED13713C2B60F35100A6AB27 /* GoogleService-Info.plist */; };
+		ED3905DA2B4E40B800368BE2 /* Niconne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED3905D92B4E40B800368BE2 /* Niconne-Regular.ttf */; };
+		ED3905DD2B4F894A00368BE2 /* register.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3905DC2B4F894A00368BE2 /* register.swift */; };
+		ED3905DF2B4F8A6A00368BE2 /* topView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3905DE2B4F8A6A00368BE2 /* topView.swift */; };
+		ED3905E12B4F8ABD00368BE2 /* Montaga-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED3905E02B4F8ABD00368BE2 /* Montaga-Regular.ttf */; };
+		ED3905E32B4F8E3700368BE2 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3905E22B4F8E3700368BE2 /* home.swift */; };
+		ED6138502B216B7C00DBE41D /* CAKETApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61384F2B216B7C00DBE41D /* CAKETApp.swift */; };
+		ED6138522B216B7C00DBE41D /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6138512B216B7C00DBE41D /* login.swift */; };
+		ED6138542B216B7D00DBE41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6138532B216B7D00DBE41D /* Assets.xcassets */; };
+		ED6138572B216B7D00DBE41D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6138562B216B7D00DBE41D /* Preview Assets.xcassets */; };
+		ED6B7FA42B55941E00B35802 /* InriaSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED6B7FA32B55941E00B35802 /* InriaSerif-Regular.ttf */; };
+		ED6B7FA62B55958800B35802 /* task(1day).swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B7FA52B55958800B35802 /* task(1day).swift */; };
+		ED6CAD862B617BD00028C0D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CAD852B617BD00028C0D0 /* ContentView.swift */; };
+		ED6CAD8F2B617FCC0028C0D0 /* caket Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ED6CAD8E2B617FCC0028C0D0 /* caket Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ED6CAD942B617FCC0028C0D0 /* caketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CAD932B617FCC0028C0D0 /* caketApp.swift */; };
+		ED6CAD962B617FCC0028C0D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CAD952B617FCC0028C0D0 /* ContentView.swift */; };
+		ED6CAD982B617FCE0028C0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6CAD972B617FCE0028C0D0 /* Assets.xcassets */; };
+		ED6CAD9B2B617FCE0028C0D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6CAD9A2B617FCE0028C0D0 /* Preview Assets.xcassets */; };
+		ED6CADA52B617FCE0028C0D0 /* caket_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CADA42B617FCE0028C0D0 /* caket_Watch_AppTests.swift */; };
+		ED6CADAF2B617FCF0028C0D0 /* caket_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CADAE2B617FCF0028C0D0 /* caket_Watch_AppUITests.swift */; };
+		ED6CADB12B617FCF0028C0D0 /* caket_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6CADB02B617FCF0028C0D0 /* caket_Watch_AppUITestsLaunchTests.swift */; };
+		ED73B6892B626D20002783F7 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED73B6882B626D20002783F7 /* CalendarView.swift */; };
+		ED8C138D2B679628003261D8 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C138C2B679628003261D8 /* Task.swift */; };
+		ED8C138F2B679676003261D8 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8C138E2B679676003261D8 /* TaskViewModel.swift */; };
+		ED91CC8D2B5E6D01008284BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED91CC8C2B5E6D01008284BC /* AppDelegate.swift */; };
+		EDAB0ED42B58C4DA00419234 /* deletetask1day.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAB0ED32B58C4DA00419234 /* deletetask1day.swift */; };
+		EDAB0ED62B58C6C100419234 /* InriaSerif-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDAB0ED52B58C6C100419234 /* InriaSerif-Bold.ttf */; };
+		EDAB0ED82B58C75C00419234 /* NotoSerifJP-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EDAB0ED72B58C75C00419234 /* NotoSerifJP-Regular.otf */; };
+		EDAB0EDA2B58CE3000419234 /* deletetask1week.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAB0ED92B58CE3000419234 /* deletetask1week.swift */; };
+		EDAB0EDC2B58CE7D00419234 /* deletetask1month.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAB0EDB2B58CE7D00419234 /* deletetask1month.swift */; };
+		EDAB0EDE2B59112000419234 /* carender.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAB0EDD2B59112000419234 /* carender.swift */; };
+		EDAB0EE02B59133E00419234 /* optiontask1day.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAB0EDF2B59133E00419234 /* optiontask1day.swift */; };
+		EDCEF66A2B575D4000A39477 /* task(1week).swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF6692B575D4000A39477 /* task(1week).swift */; };
+		EDCEF66C2B575EB900A39477 /* task(1month).swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF66B2B575EB900A39477 /* task(1month).swift */; };
+		EDCEF66E2B577E4E00A39477 /* Addtask1day.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF66D2B577E4E00A39477 /* Addtask1day.swift */; };
+		EDCEF6702B57ABB100A39477 /* Addtask1week.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF66F2B57ABB100A39477 /* Addtask1week.swift */; };
+		EDCEF6722B57ACD500A39477 /* Addtask1month.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCEF6712B57ACD500A39477 /* Addtask1month.swift */; };
+		EDDB3CDA2B5AE421006717A7 /* optionhome.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3CD92B5AE421006717A7 /* optionhome.swift */; };
+		EDDB3CDC2B5C2FAC006717A7 /* optiontask1week.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3CDB2B5C2FAC006717A7 /* optiontask1week.swift */; };
+		EDDB3CDE2B5C2FB3006717A7 /* optiontask1month.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDB3CDD2B5C2FB3006717A7 /* optiontask1month.swift */; };
+		EDFEB8A02B72E11900BC9ED1 /* Pods_CAKET.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4802B481983D162ADAE8E54A /* Pods_CAKET.framework */; };
+		EDFEB8A12B72E11900BC9ED1 /* Pods_CAKET.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4802B481983D162ADAE8E54A /* Pods_CAKET.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED6CAD902B617FCC0028C0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6138442B216B7C00DBE41D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6CAD8D2B617FCC0028C0D0;
+			remoteInfo = "caket Watch App";
+		};
+		ED6CADA12B617FCE0028C0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6138442B216B7C00DBE41D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6CAD8D2B617FCC0028C0D0;
+			remoteInfo = "caket Watch App";
+		};
+		ED6CADAB2B617FCE0028C0D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6138442B216B7C00DBE41D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6CAD8D2B617FCC0028C0D0;
+			remoteInfo = "caket Watch App";
+		};
+		EDAB1E842B6178A50018E5EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6138442B216B7C00DBE41D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAB1E702B6178A30018E5EC;
+			remoteInfo = "Caket Watch App";
+		};
+		EDAB1E8E2B6178A50018E5EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6138442B216B7C00DBE41D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDAB1E702B6178A30018E5EC;
+			remoteInfo = "Caket Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ED1CE1EA2B5FBAAB000D10D8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EDFEB8A12B72E11900BC9ED1 /* Pods_CAKET.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4A1B3C2B2823A60068EB48 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CADB52B617FCF0028C0D0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ED6CAD8F2B617FCC0028C0D0 /* caket Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		425AF3E690AFC61BEB677EF8 /* Pods-caket Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caket Watch App.release.xcconfig"; path = "Target Support Files/Pods-caket Watch App/Pods-caket Watch App.release.xcconfig"; sourceTree = "<group>"; };
+		4802B481983D162ADAE8E54A /* Pods_CAKET.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAKET.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCC43E724E97D2F5BF64B23 /* Pods-caket Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-caket Watch App.debug.xcconfig"; path = "Target Support Files/Pods-caket Watch App/Pods-caket Watch App.debug.xcconfig"; sourceTree = "<group>"; };
+		7EF7FDD0FE66E01816C6A20F /* Pods-CAKET.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAKET.release.xcconfig"; path = "Target Support Files/Pods-CAKET/Pods-CAKET.release.xcconfig"; sourceTree = "<group>"; };
+		805129FD5AB4C5EBCCC4AE6E /* Pods-CAKET.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAKET.debug.xcconfig"; path = "Target Support Files/Pods-CAKET/Pods-CAKET.debug.xcconfig"; sourceTree = "<group>"; };
+		C170C5BEC3659E04B494E286 /* Pods_caket_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_caket_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED13713C2B60F35100A6AB27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED3905D92B4E40B800368BE2 /* Niconne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Niconne-Regular.ttf"; sourceTree = "<group>"; };
+		ED3905DB2B4E444E00368BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ED3905DC2B4F894A00368BE2 /* register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = register.swift; sourceTree = "<group>"; };
+		ED3905DE2B4F8A6A00368BE2 /* topView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topView.swift; sourceTree = "<group>"; };
+		ED3905E02B4F8ABD00368BE2 /* Montaga-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montaga-Regular.ttf"; sourceTree = "<group>"; };
+		ED3905E22B4F8E3700368BE2 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		ED4915022B6118AB006B0011 /* caket Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "caket Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED49150C2B6118AB006B0011 /* caket Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "caket Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED61384C2B216B7C00DBE41D /* CAKET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAKET.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED61384F2B216B7C00DBE41D /* CAKETApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAKETApp.swift; sourceTree = "<group>"; };
+		ED6138512B216B7C00DBE41D /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; tabWidth = 4; };
+		ED6138532B216B7D00DBE41D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6138562B216B7D00DBE41D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED6B7FA32B55941E00B35802 /* InriaSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSerif-Regular.ttf"; sourceTree = "<group>"; };
+		ED6B7FA52B55958800B35802 /* task(1day).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "task(1day).swift"; sourceTree = "<group>"; };
+		ED6CAD852B617BD00028C0D0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Preview Content/ContentView.swift"; sourceTree = "<group>"; };
+		ED6CAD892B617FCC0028C0D0 /* caket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6CAD8E2B617FCC0028C0D0 /* caket Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "caket Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6CAD932B617FCC0028C0D0 /* caketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caketApp.swift; sourceTree = "<group>"; };
+		ED6CAD952B617FCC0028C0D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED6CAD972B617FCE0028C0D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6CAD9A2B617FCE0028C0D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED6CADA02B617FCE0028C0D0 /* caket Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "caket Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6CADA42B617FCE0028C0D0 /* caket_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caket_Watch_AppTests.swift; sourceTree = "<group>"; };
+		ED6CADAA2B617FCE0028C0D0 /* caket Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "caket Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6CADAE2B617FCF0028C0D0 /* caket_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caket_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		ED6CADB02B617FCF0028C0D0 /* caket_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caket_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED73B6882B626D20002783F7 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		ED8C138C2B679628003261D8 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		ED8C138E2B679676003261D8 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		ED91CC8C2B5E6D01008284BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDAB0ED32B58C4DA00419234 /* deletetask1day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deletetask1day.swift; sourceTree = "<group>"; };
+		EDAB0ED52B58C6C100419234 /* InriaSerif-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSerif-Bold.ttf"; sourceTree = "<group>"; };
+		EDAB0ED72B58C75C00419234 /* NotoSerifJP-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSerifJP-Regular.otf"; sourceTree = "<group>"; };
+		EDAB0ED92B58CE3000419234 /* deletetask1week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deletetask1week.swift; sourceTree = "<group>"; };
+		EDAB0EDB2B58CE7D00419234 /* deletetask1month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deletetask1month.swift; sourceTree = "<group>"; };
+		EDAB0EDD2B59112000419234 /* carender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carender.swift; sourceTree = "<group>"; };
+		EDAB0EDF2B59133E00419234 /* optiontask1day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optiontask1day.swift; sourceTree = "<group>"; };
+		EDAB1E712B6178A30018E5EC /* Caket Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Caket Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAB1E832B6178A50018E5EC /* Caket Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Caket Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAB1E8D2B6178A50018E5EC /* Caket Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Caket Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCEF6692B575D4000A39477 /* task(1week).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "task(1week).swift"; sourceTree = "<group>"; };
+		EDCEF66B2B575EB900A39477 /* task(1month).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "task(1month).swift"; sourceTree = "<group>"; };
+		EDCEF66D2B577E4E00A39477 /* Addtask1day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addtask1day.swift; sourceTree = "<group>"; };
+		EDCEF66F2B57ABB100A39477 /* Addtask1week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addtask1week.swift; sourceTree = "<group>"; };
+		EDCEF6712B57ACD500A39477 /* Addtask1month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Addtask1month.swift; sourceTree = "<group>"; };
+		EDDB3CD92B5AE421006717A7 /* optionhome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optionhome.swift; sourceTree = "<group>"; };
+		EDDB3CDB2B5C2FAC006717A7 /* optiontask1week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optiontask1week.swift; sourceTree = "<group>"; };
+		EDDB3CDD2B5C2FB3006717A7 /* optiontask1month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = optiontask1month.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4914FF2B6118AB006B0011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4915092B6118AB006B0011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6138492B216B7C00DBE41D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFEB8A02B72E11900BC9ED1 /* Pods_CAKET.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CAD8B2B617FCC0028C0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0812404714F3439B4D4094 /* Pods_caket_Watch_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CAD9D2B617FCE0028C0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CADA72B617FCE0028C0D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAB1E6E2B6178A30018E5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAB1E802B6178A50018E5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAB1E8A2B6178A50018E5EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		500567D6B14D93550D12CEB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4802B481983D162ADAE8E54A /* Pods_CAKET.framework */,
+				C170C5BEC3659E04B494E286 /* Pods_caket_Watch_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EBFA7040A9D52143CCE4C17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				805129FD5AB4C5EBCCC4AE6E /* Pods-CAKET.debug.xcconfig */,
+				7EF7FDD0FE66E01816C6A20F /* Pods-CAKET.release.xcconfig */,
+				7BCC43E724E97D2F5BF64B23 /* Pods-caket Watch App.debug.xcconfig */,
+				425AF3E690AFC61BEB677EF8 /* Pods-caket Watch App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED3905D82B4E3D0600368BE2 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				EDAB0ED72B58C75C00419234 /* NotoSerifJP-Regular.otf */,
+				EDAB0ED52B58C6C100419234 /* InriaSerif-Bold.ttf */,
+				ED6B7FA32B55941E00B35802 /* InriaSerif-Regular.ttf */,
+				ED3905D92B4E40B800368BE2 /* Niconne-Regular.ttf */,
+				ED3905E02B4F8ABD00368BE2 /* Montaga-Regular.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		ED6138432B216B7C00DBE41D = {
+			isa = PBXGroup;
+			children = (
+				ED61384E2B216B7C00DBE41D /* CAKET */,
+				ED6CAD922B617FCC0028C0D0 /* caket Watch App */,
+				ED6CADA32B617FCE0028C0D0 /* caket Watch AppTests */,
+				ED6CADAD2B617FCF0028C0D0 /* caket Watch AppUITests */,
+				ED61384D2B216B7C00DBE41D /* Products */,
+				8EBFA7040A9D52143CCE4C17 /* Pods */,
+				500567D6B14D93550D12CEB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED61384D2B216B7C00DBE41D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED61384C2B216B7C00DBE41D /* CAKET.app */,
+				ED4915022B6118AB006B0011 /* caket Watch AppTests.xctest */,
+				ED49150C2B6118AB006B0011 /* caket Watch AppUITests.xctest */,
+				EDAB1E712B6178A30018E5EC /* Caket Watch App.app */,
+				EDAB1E832B6178A50018E5EC /* Caket Watch AppTests.xctest */,
+				EDAB1E8D2B6178A50018E5EC /* Caket Watch AppUITests.xctest */,
+				ED6CAD892B617FCC0028C0D0 /* caket.app */,
+				ED6CAD8E2B617FCC0028C0D0 /* caket Watch App.app */,
+				ED6CADA02B617FCE0028C0D0 /* caket Watch AppTests.xctest */,
+				ED6CADAA2B617FCE0028C0D0 /* caket Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED61384E2B216B7C00DBE41D /* CAKET */ = {
+			isa = PBXGroup;
+			children = (
+				ED3905DB2B4E444E00368BE2 /* Info.plist */,
+				ED61384F2B216B7C00DBE41D /* CAKETApp.swift */,
+				ED3905DE2B4F8A6A00368BE2 /* topView.swift */,
+				ED6138512B216B7C00DBE41D /* login.swift */,
+				ED91CC8C2B5E6D01008284BC /* AppDelegate.swift */,
+				ED3905DC2B4F894A00368BE2 /* register.swift */,
+				ED3905E22B4F8E3700368BE2 /* home.swift */,
+				EDAB0EDD2B59112000419234 /* carender.swift */,
+				ED73B6882B626D20002783F7 /* CalendarView.swift */,
+				ED6B7FA52B55958800B35802 /* task(1day).swift */,
+				EDCEF6692B575D4000A39477 /* task(1week).swift */,
+				EDCEF66B2B575EB900A39477 /* task(1month).swift */,
+				ED8C138E2B679676003261D8 /* TaskViewModel.swift */,
+				ED8C138C2B679628003261D8 /* Task.swift */,
+				EDCEF66D2B577E4E00A39477 /* Addtask1day.swift */,
+				EDCEF66F2B57ABB100A39477 /* Addtask1week.swift */,
+				EDCEF6712B57ACD500A39477 /* Addtask1month.swift */,
+				EDDB3CD92B5AE421006717A7 /* optionhome.swift */,
+				EDAB0EDF2B59133E00419234 /* optiontask1day.swift */,
+				EDDB3CDB2B5C2FAC006717A7 /* optiontask1week.swift */,
+				EDDB3CDD2B5C2FB3006717A7 /* optiontask1month.swift */,
+				EDAB0ED32B58C4DA00419234 /* deletetask1day.swift */,
+				EDAB0ED92B58CE3000419234 /* deletetask1week.swift */,
+				EDAB0EDB2B58CE7D00419234 /* deletetask1month.swift */,
+				ED6CAD852B617BD00028C0D0 /* ContentView.swift */,
+				ED13713C2B60F35100A6AB27 /* GoogleService-Info.plist */,
+				ED6138532B216B7D00DBE41D /* Assets.xcassets */,
+				ED3905D82B4E3D0600368BE2 /* font */,
+				ED6138552B216B7D00DBE41D /* Preview Content */,
+			);
+			path = CAKET;
+			sourceTree = "<group>";
+		};
+		ED6138552B216B7D00DBE41D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED6138562B216B7D00DBE41D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED6CAD922B617FCC0028C0D0 /* caket Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CAD932B617FCC0028C0D0 /* caketApp.swift */,
+				ED6CAD952B617FCC0028C0D0 /* ContentView.swift */,
+				ED6CAD972B617FCE0028C0D0 /* Assets.xcassets */,
+				ED6CAD992B617FCE0028C0D0 /* Preview Content */,
+			);
+			path = "caket Watch App";
+			sourceTree = "<group>";
+		};
+		ED6CAD992B617FCE0028C0D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CAD9A2B617FCE0028C0D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED6CADA32B617FCE0028C0D0 /* caket Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CADA42B617FCE0028C0D0 /* caket_Watch_AppTests.swift */,
+			);
+			path = "caket Watch AppTests";
+			sourceTree = "<group>";
+		};
+		ED6CADAD2B617FCF0028C0D0 /* caket Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED6CADAE2B617FCF0028C0D0 /* caket_Watch_AppUITests.swift */,
+				ED6CADB02B617FCF0028C0D0 /* caket_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "caket Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4915012B6118AB006B0011 /* caket Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4915192B6118AB006B0011 /* Build configuration list for PBXNativeTarget "caket Watch AppTests" */;
+			buildPhases = (
+				ED4914FE2B6118AB006B0011 /* Sources */,
+				ED4914FF2B6118AB006B0011 /* Frameworks */,
+				ED4915002B6118AB006B0011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "caket Watch AppTests";
+			productName = "caket Watch AppTests";
+			productReference = ED4915022B6118AB006B0011 /* caket Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED49150B2B6118AB006B0011 /* caket Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED49151C2B6118AB006B0011 /* Build configuration list for PBXNativeTarget "caket Watch AppUITests" */;
+			buildPhases = (
+				ED4915082B6118AB006B0011 /* Sources */,
+				ED4915092B6118AB006B0011 /* Frameworks */,
+				ED49150A2B6118AB006B0011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "caket Watch AppUITests";
+			productName = "caket Watch AppUITests";
+			productReference = ED49150C2B6118AB006B0011 /* caket Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		ED61384B2B216B7C00DBE41D /* CAKET */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED61385A2B216B7D00DBE41D /* Build configuration list for PBXNativeTarget "CAKET" */;
+			buildPhases = (
+				D60D6F4EF69275409D1CD97B /* [CP] Check Pods Manifest.lock */,
+				ED6138482B216B7C00DBE41D /* Sources */,
+				ED6138492B216B7C00DBE41D /* Frameworks */,
+				ED61384A2B216B7C00DBE41D /* Resources */,
+				ED4A1B3C2B2823A60068EB48 /* Embed Watch Content */,
+				ED1CE1EA2B5FBAAB000D10D8 /* Embed Frameworks */,
+				704EBEC7F537146034637F59 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAKET;
+			productName = CAKET;
+			productReference = ED61384C2B216B7C00DBE41D /* CAKET.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6CAD882B617FCC0028C0D0 /* caket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6CADB62B617FCF0028C0D0 /* Build configuration list for PBXNativeTarget "caket" */;
+			buildPhases = (
+				ED6CAD872B617FCC0028C0D0 /* Resources */,
+				ED6CADB52B617FCF0028C0D0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6CAD912B617FCC0028C0D0 /* PBXTargetDependency */,
+			);
+			name = caket;
+			productName = caket;
+			productReference = ED6CAD892B617FCC0028C0D0 /* caket.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		ED6CAD8D2B617FCC0028C0D0 /* caket Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6CADB22B617FCF0028C0D0 /* Build configuration list for PBXNativeTarget "caket Watch App" */;
+			buildPhases = (
+				AD35CA308306A1452B0B1413 /* [CP] Check Pods Manifest.lock */,
+				ED6CAD8A2B617FCC0028C0D0 /* Sources */,
+				ED6CAD8B2B617FCC0028C0D0 /* Frameworks */,
+				ED6CAD8C2B617FCC0028C0D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "caket Watch App";
+			productName = "caket Watch App";
+			productReference = ED6CAD8E2B617FCC0028C0D0 /* caket Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED6CAD9F2B617FCE0028C0D0 /* caket Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6CADB92B617FCF0028C0D0 /* Build configuration list for PBXNativeTarget "caket Watch AppTests" */;
+			buildPhases = (
+				ED6CAD9C2B617FCE0028C0D0 /* Sources */,
+				ED6CAD9D2B617FCE0028C0D0 /* Frameworks */,
+				ED6CAD9E2B617FCE0028C0D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6CADA22B617FCE0028C0D0 /* PBXTargetDependency */,
+			);
+			name = "caket Watch AppTests";
+			productName = "caket Watch AppTests";
+			productReference = ED6CADA02B617FCE0028C0D0 /* caket Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED6CADA92B617FCE0028C0D0 /* caket Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6CADBC2B617FCF0028C0D0 /* Build configuration list for PBXNativeTarget "caket Watch AppUITests" */;
+			buildPhases = (
+				ED6CADA62B617FCE0028C0D0 /* Sources */,
+				ED6CADA72B617FCE0028C0D0 /* Frameworks */,
+				ED6CADA82B617FCE0028C0D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED6CADAC2B617FCE0028C0D0 /* PBXTargetDependency */,
+			);
+			name = "caket Watch AppUITests";
+			productName = "caket Watch AppUITests";
+			productReference = ED6CADAA2B617FCE0028C0D0 /* caket Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EDAB1E702B6178A30018E5EC /* Caket Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAB1EA22B6178A50018E5EC /* Build configuration list for PBXNativeTarget "Caket Watch App" */;
+			buildPhases = (
+				EDAB1E6D2B6178A30018E5EC /* Sources */,
+				EDAB1E6E2B6178A30018E5EC /* Frameworks */,
+				EDAB1E6F2B6178A30018E5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Caket Watch App";
+			productName = "Caket Watch App";
+			productReference = EDAB1E712B6178A30018E5EC /* Caket Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDAB1E822B6178A50018E5EC /* Caket Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAB1EA62B6178A50018E5EC /* Build configuration list for PBXNativeTarget "Caket Watch AppTests" */;
+			buildPhases = (
+				EDAB1E7F2B6178A50018E5EC /* Sources */,
+				EDAB1E802B6178A50018E5EC /* Frameworks */,
+				EDAB1E812B6178A50018E5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAB1E852B6178A50018E5EC /* PBXTargetDependency */,
+			);
+			name = "Caket Watch AppTests";
+			productName = "Caket Watch AppTests";
+			productReference = EDAB1E832B6178A50018E5EC /* Caket Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDAB1E8C2B6178A50018E5EC /* Caket Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDAB1EA72B6178A50018E5EC /* Build configuration list for PBXNativeTarget "Caket Watch AppUITests" */;
+			buildPhases = (
+				EDAB1E892B6178A50018E5EC /* Sources */,
+				EDAB1E8A2B6178A50018E5EC /* Frameworks */,
+				EDAB1E8B2B6178A50018E5EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDAB1E8F2B6178A50018E5EC /* PBXTargetDependency */,
+			);
+			name = "Caket Watch AppUITests";
+			productName = "Caket Watch AppUITests";
+			productReference = EDAB1E8D2B6178A50018E5EC /* Caket Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6138442B216B7C00DBE41D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					ED4915012B6118AB006B0011 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED4914F22B6118A8006B0011;
+					};
+					ED49150B2B6118AB006B0011 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED4914F22B6118A8006B0011;
+					};
+					ED61384B2B216B7C00DBE41D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					ED6CAD882B617FCC0028C0D0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					ED6CAD8D2B617FCC0028C0D0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					ED6CAD9F2B617FCE0028C0D0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED6CAD8D2B617FCC0028C0D0;
+					};
+					ED6CADA92B617FCE0028C0D0 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ED6CAD8D2B617FCC0028C0D0;
+					};
+					EDAB1E702B6178A30018E5EC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EDAB1E822B6178A50018E5EC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EDAB1E702B6178A30018E5EC;
+					};
+					EDAB1E8C2B6178A50018E5EC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EDAB1E702B6178A30018E5EC;
+					};
+				};
+			};
+			buildConfigurationList = ED6138472B216B7C00DBE41D /* Build configuration list for PBXProject "CAKET" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6138432B216B7C00DBE41D;
+			packageReferences = (
+				ED5969F82B5F8A8100CBD765 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = ED61384D2B216B7C00DBE41D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED61384B2B216B7C00DBE41D /* CAKET */,
+				ED4915012B6118AB006B0011 /* caket Watch AppTests */,
+				ED49150B2B6118AB006B0011 /* caket Watch AppUITests */,
+				EDAB1E702B6178A30018E5EC /* Caket Watch App */,
+				EDAB1E822B6178A50018E5EC /* Caket Watch AppTests */,
+				EDAB1E8C2B6178A50018E5EC /* Caket Watch AppUITests */,
+				ED6CAD882B617FCC0028C0D0 /* caket */,
+				ED6CAD8D2B617FCC0028C0D0 /* caket Watch App */,
+				ED6CAD9F2B617FCE0028C0D0 /* caket Watch AppTests */,
+				ED6CADA92B617FCE0028C0D0 /* caket Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4915002B6118AB006B0011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED49150A2B6118AB006B0011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED61384A2B216B7C00DBE41D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6138572B216B7D00DBE41D /* Preview Assets.xcassets in Resources */,
+				ED13713D2B60F35100A6AB27 /* GoogleService-Info.plist in Resources */,
+				EDAB0ED62B58C6C100419234 /* InriaSerif-Bold.ttf in Resources */,
+				ED3905E12B4F8ABD00368BE2 /* Montaga-Regular.ttf in Resources */,
+				ED6138542B216B7D00DBE41D /* Assets.xcassets in Resources */,
+				ED6B7FA42B55941E00B35802 /* InriaSerif-Regular.ttf in Resources */,
+				EDAB0ED82B58C75C00419234 /* NotoSerifJP-Regular.otf in Resources */,
+				ED3905DA2B4E40B800368BE2 /* Niconne-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CAD872B617FCC0028C0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CAD8C2B617FCC0028C0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6CAD9B2B617FCE0028C0D0 /* Preview Assets.xcassets in Resources */,
+				ED6CAD982B617FCE0028C0D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CAD9E2B617FCE0028C0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CADA82B617FCE0028C0D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAB1E6F2B6178A30018E5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAB1E812B6178A50018E5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAB1E8B2B6178A50018E5EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		704EBEC7F537146034637F59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CAKET/Pods-CAKET-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CAKET/Pods-CAKET-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CAKET/Pods-CAKET-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD35CA308306A1452B0B1413 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-caket Watch App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D60D6F4EF69275409D1CD97B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CAKET-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4914FE2B6118AB006B0011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4915082B6118AB006B0011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6138482B216B7C00DBE41D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAB0EDA2B58CE3000419234 /* deletetask1week.swift in Sources */,
+				EDCEF6722B57ACD500A39477 /* Addtask1month.swift in Sources */,
+				ED6CAD862B617BD00028C0D0 /* ContentView.swift in Sources */,
+				EDAB0EDC2B58CE7D00419234 /* deletetask1month.swift in Sources */,
+				ED8C138D2B679628003261D8 /* Task.swift in Sources */,
+				EDCEF66C2B575EB900A39477 /* task(1month).swift in Sources */,
+				EDAB0EE02B59133E00419234 /* optiontask1day.swift in Sources */,
+				ED73B6892B626D20002783F7 /* CalendarView.swift in Sources */,
+				ED3905DF2B4F8A6A00368BE2 /* topView.swift in Sources */,
+				EDDB3CDA2B5AE421006717A7 /* optionhome.swift in Sources */,
+				ED6138522B216B7C00DBE41D /* login.swift in Sources */,
+				EDAB0ED42B58C4DA00419234 /* deletetask1day.swift in Sources */,
+				ED3905E32B4F8E3700368BE2 /* home.swift in Sources */,
+				ED8C138F2B679676003261D8 /* TaskViewModel.swift in Sources */,
+				EDDB3CDE2B5C2FB3006717A7 /* optiontask1month.swift in Sources */,
+				EDCEF66E2B577E4E00A39477 /* Addtask1day.swift in Sources */,
+				ED6138502B216B7C00DBE41D /* CAKETApp.swift in Sources */,
+				ED3905DD2B4F894A00368BE2 /* register.swift in Sources */,
+				EDCEF66A2B575D4000A39477 /* task(1week).swift in Sources */,
+				EDAB0EDE2B59112000419234 /* carender.swift in Sources */,
+				ED6B7FA62B55958800B35802 /* task(1day).swift in Sources */,
+				ED91CC8D2B5E6D01008284BC /* AppDelegate.swift in Sources */,
+				EDDB3CDC2B5C2FAC006717A7 /* optiontask1week.swift in Sources */,
+				EDCEF6702B57ABB100A39477 /* Addtask1week.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CAD8A2B617FCC0028C0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6CAD962B617FCC0028C0D0 /* ContentView.swift in Sources */,
+				ED6CAD942B617FCC0028C0D0 /* caketApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CAD9C2B617FCE0028C0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6CADA52B617FCE0028C0D0 /* caket_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6CADA62B617FCE0028C0D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6CADAF2B617FCF0028C0D0 /* caket_Watch_AppUITests.swift in Sources */,
+				ED6CADB12B617FCF0028C0D0 /* caket_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAB1E6D2B6178A30018E5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAB1E7F2B6178A50018E5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDAB1E892B6178A50018E5EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED6CAD912B617FCC0028C0D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6CAD8D2B617FCC0028C0D0 /* caket Watch App */;
+			targetProxy = ED6CAD902B617FCC0028C0D0 /* PBXContainerItemProxy */;
+		};
+		ED6CADA22B617FCE0028C0D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6CAD8D2B617FCC0028C0D0 /* caket Watch App */;
+			targetProxy = ED6CADA12B617FCE0028C0D0 /* PBXContainerItemProxy */;
+		};
+		ED6CADAC2B617FCE0028C0D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6CAD8D2B617FCC0028C0D0 /* caket Watch App */;
+			targetProxy = ED6CADAB2B617FCE0028C0D0 /* PBXContainerItemProxy */;
+		};
+		EDAB1E852B6178A50018E5EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAB1E702B6178A30018E5EC /* Caket Watch App */;
+			targetProxy = EDAB1E842B6178A50018E5EC /* PBXContainerItemProxy */;
+		};
+		EDAB1E8F2B6178A50018E5EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDAB1E702B6178A30018E5EC /* Caket Watch App */;
+			targetProxy = EDAB1E8E2B6178A50018E5EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED49151A2B6118AB006B0011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaito.com.caket-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caket Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/caket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		ED49151B2B6118AB006B0011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaito.com.caket-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caket Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/caket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		ED49151D2B6118AB006B0011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaito.com.caket-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "caket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		ED49151E2B6118AB006B0011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaito.com.caket-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "caket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		ED6138582B216B7D00DBE41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6138592B216B7D00DBE41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED61385B2B216B7D00DBE41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 805129FD5AB4C5EBCCC4AE6E /* Pods-CAKET.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CAKET/Preview Content\"";
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CAKET/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "イベントを表示し、管理するためにカレンダーへのアクセスを使用します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaikaito.com.CAKET;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED61385C2B216B7D00DBE41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF7FDD0FE66E01816C6A20F /* Pods-CAKET.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CAKET/Preview Content\"";
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CAKET/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "イベントを表示し、管理するためにカレンダーへのアクセスを使用します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaikaito.com.CAKET;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED6CADB32B617FCF0028C0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCC43E724E97D2F5BF64B23 /* Pods-caket Watch App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"caket Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = caket;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaito.com.caket.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		ED6CADB42B617FCF0028C0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425AF3E690AFC61BEB677EF8 /* Pods-caket Watch App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"caket Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = caket;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaito.com.caket.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		ED6CADB72B617FCF0028C0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = caket;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaito.com.caket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED6CADB82B617FCF0028C0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = caket;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaito.com.caket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ED6CADBA2B617FCF0028C0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaito.com.caket-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caket Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/caket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		ED6CADBB2B617FCF0028C0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaito.com.caket-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/caket Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/caket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		ED6CADBD2B617FCF0028C0D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaito.com.caket-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "caket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		ED6CADBE2B617FCF0028C0D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaito.com.caket-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "caket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		EDAB1E9C2B6178A50018E5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Caket Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Caket;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = kaito.com.Caket;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaito.com.Caket.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		EDAB1E9D2B6178A50018E5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Caket Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Caket;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = kaito.com.Caket;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kaito.com.Caket.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		EDAB1E9E2B6178A50018E5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaito.com.Caket-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caket Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Caket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		EDAB1E9F2B6178A50018E5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaito.com.Caket-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caket Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Caket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		EDAB1EA02B6178A50018E5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaito.com.Caket-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Caket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		EDAB1EA12B6178A50018E5EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W85KV47HCN;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kaito.com.Caket-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Caket Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4915192B6118AB006B0011 /* Build configuration list for PBXNativeTarget "caket Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED49151A2B6118AB006B0011 /* Debug */,
+				ED49151B2B6118AB006B0011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED49151C2B6118AB006B0011 /* Build configuration list for PBXNativeTarget "caket Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED49151D2B6118AB006B0011 /* Debug */,
+				ED49151E2B6118AB006B0011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6138472B216B7C00DBE41D /* Build configuration list for PBXProject "CAKET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6138582B216B7D00DBE41D /* Debug */,
+				ED6138592B216B7D00DBE41D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED61385A2B216B7D00DBE41D /* Build configuration list for PBXNativeTarget "CAKET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED61385B2B216B7D00DBE41D /* Debug */,
+				ED61385C2B216B7D00DBE41D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6CADB22B617FCF0028C0D0 /* Build configuration list for PBXNativeTarget "caket Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6CADB32B617FCF0028C0D0 /* Debug */,
+				ED6CADB42B617FCF0028C0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6CADB62B617FCF0028C0D0 /* Build configuration list for PBXNativeTarget "caket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6CADB72B617FCF0028C0D0 /* Debug */,
+				ED6CADB82B617FCF0028C0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6CADB92B617FCF0028C0D0 /* Build configuration list for PBXNativeTarget "caket Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6CADBA2B617FCF0028C0D0 /* Debug */,
+				ED6CADBB2B617FCF0028C0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6CADBC2B617FCF0028C0D0 /* Build configuration list for PBXNativeTarget "caket Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6CADBD2B617FCF0028C0D0 /* Debug */,
+				ED6CADBE2B617FCF0028C0D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAB1EA22B6178A50018E5EC /* Build configuration list for PBXNativeTarget "Caket Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAB1E9C2B6178A50018E5EC /* Debug */,
+				EDAB1E9D2B6178A50018E5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAB1EA62B6178A50018E5EC /* Build configuration list for PBXNativeTarget "Caket Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAB1E9E2B6178A50018E5EC /* Debug */,
+				EDAB1E9F2B6178A50018E5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDAB1EA72B6178A50018E5EC /* Build configuration list for PBXNativeTarget "Caket Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDAB1EA02B6178A50018E5EC /* Debug */,
+				EDAB1EA12B6178A50018E5EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED5969F82B5F8A8100CBD765 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = ED6138442B216B7C00DBE41D /* Project object */;
+}
